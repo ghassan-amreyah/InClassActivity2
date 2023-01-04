@@ -74,43 +74,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    public void saveSetup()
-//    {
-//        saveDataBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view)
-//            {
-//                Book[] books = new Book[2];
-//                books[0] = new Book("Android", "Ahmad");
-//                books[1] = new Book("Software", "Ali");
-//
-//                Gson gson = new Gson();
-//                String str = gson.toJson(books);
-//                editor.putString(DATA ,str);
-//                editor.commit();
-//
-//                Toast.makeText(MainActivity.this, "Data has been saved", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//
-//
-//    }
-//
-//
-//    public void LoadSetup()
-//    {
-//        loadDataBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view)
-//            {
-//                Gson gson = new Gson();
-//                String str = prefs.getString(DATA, "");
-//                Book[] books = gson.fromJson(str, Book[].class);
-//
-//                Toast.makeText(MainActivity.this, "Number of books: " + books.length , Toast.LENGTH_SHORT).show();
-//
-//            }
-//        });
-//
-//    }
+
 }
